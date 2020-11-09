@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(46, 59, 71);
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav li {
+    list-style-type: none;
+    font-weight: 500;
+}
+
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+/* A link that has been visited */
+nav a:visited {
+    color: white;
+}
+/* A link that is hovered on */
+nav a:hover {
+    color: rgb(157, 203, 255);
+}
+/* A link that is selected */
+nav a:active {
+    color: white;
+}
+
+.capitol {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main ul {
+    width: 65%;
+}
+
+main li {
+    padding: 10px;
+}
+
+main h2 {
+    width: 85%;
+    text-align: center;
+    padding: 15px;
+    color: rgb(46, 59, 71);
+}
+
+main h4 {
+    width: 85%;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+main p {
+    width: 65%;
+    text-align: center;
+}
+
+.timeline {
+    width: 80%;
+    max-width: 750px;
+}
+
+.billsponsors {
+    width: 80%;
+    max-width: 750px;
+}
+
+.rates {
+    width: 80%;
+    margin: 20px;
+}
